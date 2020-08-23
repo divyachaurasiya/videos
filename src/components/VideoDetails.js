@@ -5,6 +5,7 @@ const VideoDetails = ({video}) => {
     if(!video) {
         return <div>Loding</div>;
     }
+    //youtube API url
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
     return (
         <div>
